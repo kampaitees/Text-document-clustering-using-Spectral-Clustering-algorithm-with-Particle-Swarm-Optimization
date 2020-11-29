@@ -1,6 +1,6 @@
 # Text document clustering using Spectral Clustering algorithm with Particle Swarm Optimization (inclusion of PCA)
 
-Team Members -
+Team Members - <br>
 __*VEDANT MEHRA - 171CO250 <br>
 RISHI SHARMA - 171CO135*__
 
