@@ -1,0 +1,1 @@
+Dataset used for this experiment is Reuters which contains 21k documents having 90 categories. As the dataset was already available in NLTK library so there was no need for downloading it, we directly imported it from NLTK library and it is mentioned in the Jupyter Notebook how we imported the dataset.

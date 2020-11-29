@@ -5,17 +5,37 @@
   - [VEDANT MEHRA](https://github.com/vmehra25) - 171CO250
 <br>
 
-Document clustering is a gathering of textual content documents into groups or clusters. The main aim is to cluster the documents, which are internally logical but considerably different from each other. It is a crucial process used in information retrieval, information extraction and document organization. In recent years, the spectral clustering is widely applied in the field of machine learning as an innovative clustering technique. This research work proposes a novel Spectral Clustering algorithm with Particle Swarm Optimization (SCPSO) to improve the text document clustering. By considering global and local optimization function, the randomization is carried out with the initial population. This research work aims at combining the spectral clustering with swarm optimization to deal with the huge volume of text documents. The proposed algorithm SCPSO is examined with the benchmark database against the other existing approaches. The proposed algorithm SCPSO is compared with the Spherical K-means, Expectation Maximization Method (EM) and standard PSO Algorithm. The concluding results show that the proposed SCPSO algorithm yields better clustering accuracy than other clustering techniques
-
-## Install libraries / Set up environment
+## Libraries / Set up environment
   - [Jupyter Notebook](https://jupyter.org/install)
   - [Anaconda](https://docs.anaconda.com/anaconda/install/)
-  - [NLTK](https://www.nltk.org/install.html/)<br>
-  - gensim installation command in jupyter notebook
+  - [NLTK](https://www.nltk.org/install.html/)
+  - [Numpy](https://numpy.org/)
+  - [Pandas](https://pandas.pydata.org/)
+  - [Matplotlib](https://matplotlib.org/)
+  - [Gensim](https://radimrehurek.com/gensim/)
+
+
+## What things you need to install the software and how to install them
+
+#### Following are the dependencies of python which you have to install in your system
+ ``` 
+  - python 3.6.8 
+  - python pip 
+ ```
+#### After installing python and pip you have to just write  
+
   ```sh
-    $ !pip install --upgrade gensim
+    $ pip install 'below library names'
    ```
-  - numpy, pandas, matplotlib, scikitlearn are already included in Anaconda. <br>
+#### To install below dependencies
+ ```
+  - numpy
+  - nltk
+  - matplotlib
+  - pandas
+  - gensim
+  - juyterlab 
+ ```
 
 ## How to run the code
   - Clone this repository and open the notebook in jupyter notebook.<br>
@@ -29,3 +49,6 @@ Document clustering is a gathering of textual content documents into groups or c
   - PCA on Affinity matrix with Euclidean Distance and then calculated the ARI for the model.<br>
   - The next section has our other idea which is to use <b>Principle Component Analysis(PCA) on Affinity matrix with Gaussian Kernel</b>. Here we applied PCA on Affinity matrix with Gaussian Kernel and then calculated the ARI for the model.<br>
   - The last section is the <b>Comparison of Adjusted Rand Index</b> for various models. 
+
+## Link to Google Colab Notebook
+[Click Here](https://colab.research.google.com/drive/1ErZ--e--kPaPP0fadfDNNDuaXbrN9T0X)
