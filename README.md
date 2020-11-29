@@ -10,7 +10,7 @@ Document clustering is a gathering of textual content documents into groups or c
 Install jupyter notebook - https://jupyter.org/install <br>
 Install Anaconda - https://docs.anaconda.com/anaconda/install/ <br>
 NLTK - https://www.nltk.org/install.html <br>
-gensim installation command in jupyter notebook - *!pip install --upgrade gensim*
+gensim installation command in jupyter notebook -  !pip install --upgrade gensim
 <br>
 numpy, pandas, matplotlib, scikitlearn are already included in Anaconda. <br>
 
