@@ -17,11 +17,11 @@ numpy, pandas, matplotlib, scikitlearn are already included in Anaconda. <br>
 <h2>How to run the code</h2>
 Clone this repository and open the notebook in jupyter notebook.<br>
 Now one can run each and every cell of the notebook. Furthur details of what each section of the code contains is given below.
-The first section of the code contains preliminary work which is needed. We __*imported the libraries*__ that are required, then __*downloading stopwords*__ and the function for creating the __*tf-idf vector*__.<br>
-The next section will __*use the imported Reuters dataset*__ and divide it into training and testing data, form the tf-idf vector from the training data. <br>
-Now the section of __*Visualization*__ has importing gensim library, tokenising the single document text, converting the tokenised vector to pandas dataframe and then visualising the word embeddings.
-Then we move to the __*Particle Swarm Optimization*__ section where we have a function for PSO algorithm.<br>
-The next section is for __*Spectral Clustering*__ which will import necessary libraries, fit the data and calculate the Adjusted Random Index (ARI).<br>
-The next section is __*our own ideas*__ which involves the idea of using __*Principle Component Analysis(PCA) on Affinity matrix with Euclidean Distance*__. Here we applied PCA on Affinity matrix with Euclidean Distance and then calculated the ARI for the model.<br>
-The next section has our other idea which is to use __*Principle Component Analysis(PCA) on Affinity matrix with Gaussian Kernel*__. Here we applied PCA on Affinity matrix with Gaussian Kernel and then calculated the ARI for the model.<br>
-The last section is the __*Comparison of Adjusted Rand Index*__ for various models. 
+The first section of the code contains preliminary work which is needed. We <b>imported the libraries</b> that are required, then <b>downloading stopwords</b> and the function for creating the <b>tf-idf vector</b>.<br>
+The next section will <b>use the imported Reuters dataset</b> and divide it into training and testing data, form the tf-idf vector from the training data. <br>
+Now the section of <b>Visualization</b> has importing gensim library, tokenising the single document text, converting the tokenised vector to pandas dataframe and then visualising the word embeddings.
+Then we move to the <b>Particle Swarm Optimization</b> section where we have a function for PSO algorithm.<br>
+The next section is for <b>Spectral Clustering</b> which will import necessary libraries, fit the data and calculate the Adjusted Random Index (ARI).<br>
+The next section is <b>our own ideas</b> which involves the idea of using <b>Principle Component Analysis(PCA) on Affinity matrix with Euclidean Distance</b>. Here we applied PCA on Affinity matrix with Euclidean Distance and then calculated the ARI for the model.<br>
+The next section has our other idea which is to use <b>Principle Component Analysis(PCA) on Affinity matrix with Gaussian Kernel</b>. Here we applied PCA on Affinity matrix with Gaussian Kernel and then calculated the ARI for the model.<br>
+The last section is the <b>Comparison of Adjusted Rand Index</b> for various models. 
