@@ -11,7 +11,11 @@ Install jupyter notebook - https://jupyter.org/install <br>
 Install Anaconda - https://docs.anaconda.com/anaconda/install/ <br>
 NLTK - https://www.nltk.org/install.html <br>
 numpy
-gensim installation command in jupyter notebook - ```!pip install --upgrade gensim``` <br>
+gensim installation command in jupyter notebook - 
+```bash
+!pip install --upgrade gensim
+```
+<br>
 scikit-learn - https://scikit-learn.org/stable/install.html <br>
 <h2>How to run the code</h2>
 
