@@ -49,6 +49,3 @@
   - PCA on Affinity matrix with Euclidean Distance and then calculated the ARI for the model.<br>
   - The next section has our other idea which is to use <b>Principle Component Analysis(PCA) on Affinity matrix with Gaussian Kernel</b>. Here we applied PCA on Affinity matrix with Gaussian Kernel and then calculated the ARI for the model.<br>
   - The last section is the <b>Comparison of Adjusted Rand Index</b> for various models. 
-
-## Link to Google Colab Notebook
-[Click Here](https://colab.research.google.com/drive/1ErZ--e--kPaPP0fadfDNNDuaXbrN9T0X)
